@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<style type="text/css">
+	 .btn{
+			display: block;
+			width: 120px;
+			height: 50px;
+			background: #D65786;
+			border: none;
+			color: white;
+			font-weight: bold;
+			font-size: 16px;
+		}
+		label{
+			margin-right: 20px;
+		}
+	</style>
+</head>
+<body>
+ <form action="" method="post">
+ 	<!-- for 属性规定 label 与哪个表单元素绑定。 -->
+	<p>
+	  <label for="touxiang">头像</label>
+	  <input type="file" id="touxiang">
+	</p>
+	<p>
+	  <label for="nickname">昵称</label>
+	  <input type="text" id="nickname">
+	</p>
+	<p>
+	  <label for="graduation">学历</label>
+	  <select id="graduation" name="graduation">
+	  	<option value="0">大专</option>
+	  	<option value="1">大学</option>
+	  </select>
+	</p>
+	<p>
+	  <label for="sex">性别</label>
+	  <input type="radio" name="sex" value="男" id="sex">
+	  <label>男</label>
+	  <input type="radio" name="sex" value="女" id="sex">
+	  <label>女</label>
+	</p>
+	<p>
+	<div>
+	  <label for="hobbies">爱好</label>
+	  <input type="checkbox" name="hobbies" value="电影" id="hobbies">电影
+	  <input type="checkbox" name="hobbies" value="摄影" id="hobbies">摄影
+	  <input type="checkbox" name="hobbies" value="音乐" id="hobbies">音乐
+	  <input type="checkbox" name="hobbies" value="阅读" id="hobbies">阅读
+	</p>
+	<p>
+	  <label for="signature">签名</label>
+	  <!-- 把此元素放置在父元素的中部。 -->
+	  <textarea id="signature" rows="10" cols="40" style="vertical-align: middle;"></textarea>
+	</p>
+	<input type="submit" class="btn" name="save" value="保存">
+	</form>
+</body>
+</html>
