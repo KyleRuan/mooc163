@@ -5,4 +5,13 @@
 
 ## HTML
 
+### page1
+
+1. `for`标签 for 属性规定 label 与哪个表单元素绑定。
+2.  `style="vertical-align: middle;"` 把元素放置在父元素的中部
+
+### page2
+1. `&nbsp`空格
+2. ` border-top: 1px solid gray; `线框属性
+
 
